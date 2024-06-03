@@ -1,0 +1,127 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover; /* Ensure the background image covers the entire body */
+  background-position: center; /* Center the background image */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ccastle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.pcastle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+#img {
+  width: 200px;
+  height: 100px;
+}
+
+.result {
+  color: white;
+  size: 20px;
+}
+
+/* CSS for smaller soldier images */
+.soldier-img {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.pbuy {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 5px;
+  background-color: #415963;
+  color: white;
+  font-size: 17px;
+  border-width: 2px;
+}
+
+.pupgrade {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 5px;
+  background-color: #515166;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  border-width: 2px;
+}
+
+li {
+  color: white;
+  width: 180px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  list-style: none;
+  /* Add any other styling you need */
+  border: 2px solid transparent; /* Set initial border color to transparent */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+li:hover {
+  border-color: rgb(2, 253, 211); /* Change border color on hover */
+}
+
+#ring-table {
+  border-collapse: separate; /* Separate borders between cells */
+  border-spacing: 1px; /* Add spacing between cells */
+  margin-top: 200px;
+}
+
+#ring-table td {
+  width: 50px; /* Adjust the width of each cell as needed */
+  height: 70px; /* Adjust the height of each cell as needed */
+  border: 2px solid transparent; /* Set initial border color to transparent */
+  transition: border-color 0.4s; /* Smooth transition for border color */
+}
+
+/* Add hover effect */
+#ring-table td:hover {
+  border-color: rgb(2, 253, 211); /* Change border color on hover */
+}
+
+.resource-counter {
+  color: white;
+}
+
+.waiting td:hover {
+  border-color: rgb(251, 255, 0); /* Change border color on hover */
+}
+.waiting td {
+  width: 50px; /* Adjust the width of each cell as needed */
+  height: 70px; /* Adjust the height of each cell as needed */
+  border: 2px solid transparent; /* Set initial border color to transparent */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+.waiting {
+  border-collapse: separate; /* Separate borders between cells */
+  border-spacing: 1px; /* Add spacing between cells */
+}
+#ring {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring,
+.waiting {
+  background-color: #8febc02f;
+  border-radius: 3px;
+  box-shadow: 3px white;
+}

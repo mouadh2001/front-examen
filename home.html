@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castle Battle Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="player-castle" class="pcastle">
+        <h2 class="resource-counter" id="player-resources"></h2>
+        <img class="castle-img" src="blueC.png" alt="Player Castle" id="img" />
+        <div id="player-info" class="info">
+            <span class="result" id="dice-result"></span>
+          </button>
+          <br />
+          <button class="pbuy" id="buy-soldier">Buy Soldier</button>
+          <br />
+          <button class="pupgrade" id="upgrade-soldier">Upgrade Soldier</button>
+          <br>
+          <ul id="player-soldiers"></ul>
+          <!-- Add a list to display player soldiers -->
+        </div>
+      </div>
+
+      <div id="ring">
+        <table id="ring-table"  class="ring">
+          <tbody>
+            <!-- Each row represents a line in the ring -->
+            <tr>
+              <!-- Each cell represents a step in the line -->
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <!-- Each cell represents a step in the line -->
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <!-- Each cell represents a step in the line -->
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <!-- Each cell represents a step in the line -->
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table id="waiting" class="waiting">
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="computer-castle" class="ccastle">
+        <h2 class="resource-counter" id="computer-resources"></h2>
+        <img class="castle-img" src="redC.png" alt="Computer Castle" id="img" />
+        <div id="computer-info" class="info">
+            <span class="result" id="computer-dice-result"></span>
+          </button>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br id="brc" />
+          <ul id="computer-soldiers"></ul>
+          <!-- Add a list to display computer soldiers -->
+        </div>
+      </div>
+    </div>
+
+    <script src="ScriptOobject.js"></script>
+  </body>
+</html>
